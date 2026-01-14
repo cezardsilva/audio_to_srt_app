@@ -198,7 +198,7 @@ def transcribe_audio(audio_file):
 def load_audio():
     file = filedialog.askopenfilename(
         title="Selecione áudio",
-        filetypes=[("Áudio", "*.mp3 *.m4a *.wav *.ogg *.mp4 *.opus")],
+        filetypes=[("Áudio", "*.mp3 *.m4a *.wav *.ogg *.mp4 *.opus *.aac")],
     )
     if file:
         transcribe_audio(file)
